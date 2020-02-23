@@ -2,12 +2,96 @@
     margin: 0;
     padding: 0;
 }
+body {
+    font-family: 'Poppins', 'sans-serif' ;
+}
 img {
     max-width: 100%;
+}
+.mb-20 {
+    margin-bottom: 20px;
 }
 .mb-35 {
     margin-bottom: 35px;
 }
+a.buy-btn {
+    padding: 15px 25px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 5px;
+    display: table;
+    width: fit-content;
+}
+a.msg-btn {
+    padding: 15px 25px;
+    background: transparent linear-gradient(142deg, #FF9C35 0%, #FFD019 100%) 0% 0% 
+    no-repeat padding-box;
+    color: #fff !important;
+    border-radius: 5px;
+    display: table;
+    width: fit-content;
+}
+.card a.buy-btn {
+    margin: 0 auto;
+}
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+a i {
+    margin-left: 8px;
+    font-weight: 300;
+    font-size: 16px;
+}
+a:hover {
+    text-decoration: none;
+    
+}
+a.nav-link:hover {
+    color: #FFD019;
+}
+h3 {
+    font-size: 24px;
+    margin-bottom: 14px;
+    margin-top: 28px;
+}
+.single-item p {
+    margin-bottom: 5px;
+}
+h2.title {
+    font-size: 35px;
+    position: relative;
+    margin: 0 auto;
+    display: inline-block;
+    margin-bottom: 70px;
+    padding-bottom: 18px;
+}
+h2.title:after {
+    position: absolute;
+    content: "";
+    height: 11px;
+    width: 135px;
+    background: transparent linear-gradient(142deg, #FF9C35 0%, #FFD019 100%) 0% 0% 
+    no-repeat padding-box;
+    border-radius: 10px;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+p {
+    color: #707070;
+}
+.smartphone-area_title h2 {
+    font-size: 30px;
+    font-weight: 700;
+}
+p.color-text {
+    font-size: 19px;
+    font-weight: 600;
+    color: #FF9D00 !important;
+    cursor: pointer;
+}
 
 
 
@@ -16,6 +100,12 @@ img {
 
 
 
+
+
+
+header {
+    padding: 15px 0;
+}
 .navbar-brand img {
     max-width: 155px;
 }
@@ -27,15 +117,16 @@ img {
 
 
 .carousel-indicators li {
-    height: 10px;
-    width: 10px;
+    height: 12px;
+    width: 16px;
     background-color: rgb(168, 168, 168);
-    border-radius: 5px 5px 5px 5px;
+    border-radius: 35%;
 }
 .carousel-indicators li.active {
-    width: 30px;
-    background-color: red;
-    border-radius: 20px;
+    width: 45px;
+    background: transparent linear-gradient(142deg, #FF9C35 0%, #FFD019 100%) 0% 0% 
+    no-repeat padding-box;
+    border-radius: 30%;
 }
 
 
@@ -50,8 +141,9 @@ img {
     margin-bottom: 0;
 }
 .card {
+    margin-bottom: 25px;
     border: none;
-    padding: 30px;
+    padding: 20px;
     border-radius: 5px;
     box-shadow: 0px 0px 12px rgba(212, 211, 211, 0.82);
 }
@@ -87,3 +179,108 @@ img {
     border-radius: 4px 8px 4px 16px;
 }
 
+
+
+
+
+
+/* About us */
+
+.about-us {
+    padding: 75px 0;
+}
+.about-us p {
+    margin-bottom: 24px;
+}
+.about-us h3 {
+    color: #ffbb00fb;;
+}
+
+
+
+
+/* contact */
+
+
+.contact-us {
+    padding: 75px 0;
+    color: #333;
+  }
+  .contact-us .contact-us-title {
+    margin-bottom: 55px;
+  }
+  .contact-us .address-area {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    margin-bottom: 45px;
+  }
+  .contact-us .address-area i {
+    margin-right: 25px;
+    height: 55px;
+    width: 55px;
+    line-height: 55px;
+    text-align: center;
+    font-size: 27px;
+    background-color: #ffbb00fb;
+    color: #ffffff;
+  }
+  .contact-msg {
+    margin-bottom: 35px;
+  }
+  .contact-msg h4 {
+    font-weight: 600;
+  }
+  .input-area input {
+    width: 100%;
+  }
+  .form-control {
+    height: 48px;
+    padding: 10px 25px;
+  }
+  .form-group label {
+    position: absolute;
+    top: 11px;
+    left: 32px;
+    padding: 0 10px;
+    background-color: #fff;
+    -webkit-transition: 0.2s ease-in-out;
+    -o-transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
+    pointer-events: none;
+  }
+  .form-control:focus {
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-color: #ffbb00fb;
+    background-color: #ffffff;
+  }
+  .form-control:focus ~ label,
+  .form-control:valid ~ label {
+    top: -14px;
+    color: #ffbb00fb;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: 500;
+  }
+  
+  .message {
+    height: 95px !important;
+  }
+  .contact-us button {
+    margin-top: 10px;
+    border: none;
+    background: transparent;
+  }
+
+  /* footer */
+
+  footer {
+      padding: 20px 0;
+      border-top: 1px solid #333;
+      background-color: rgb(240, 240, 240);
+  }
